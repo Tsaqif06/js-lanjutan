@@ -36,13 +36,9 @@ const method = {
     }
 };
 function Mahasiswa(nama, energi) {
-    // let mahasiswa = {};
     let mahasiswa = Object.create(method);
     mahasiswa.nama = nama;
     mahasiswa.energi = energi;
-    // mahasiswa.makan = method.makan;
-    // mahasiswa.main = method.main;
-    // mahasiswa.tidur = method.tidur;
     return mahasiswa;
 }
 
